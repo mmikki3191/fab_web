@@ -363,7 +363,7 @@
 							<p>大型のCNCミリングマシンでドリルで切削したり切断したりすることができ、手では難しかった正確な曲線加工ができます。</p>
 							<div class="facility__textBox__button">
 								<a href="http://fablabdazaifu.com/howtouse/shopbot" target="_blank" title="">
-									<img src="img/facilities/facilities_icn_02.jpg" alt="">
+									<img src="<?php echo get_template_directory_uri(); ?>/img/facilities/facilities_icn_02.jpg" alt="">
 								</a>
 							</div>
 						</div>
