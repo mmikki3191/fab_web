@@ -1,0 +1,235 @@
+/*
+Theme Name: fablabdazaifu
+Theme URI: http://fablabdazaifu.com
+Version: 1.0
+*/
+/* =Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html
+-------------------------------------------------------------- */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  background: transparent;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+body {
+  line-height: 1;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  clear: both;
+  font-weight: normal;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a img {
+  border: none;
+}
+
+/*-------------------------------------*/
+/*-------------------------------------*/
+/*//clearFix Coponents//*/
+.clearfix {
+  display: block;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.clearfix:after {
+  display: block;
+  clear: both;
+  height: 0;
+}
+
+a {
+  color: #121212;
+  text-decoration: underline;
+  outline: none;
+}
+
+a:hover {
+  color: #999999;
+  text-decoration: underline;
+}
+
+a:hover.transparent img {
+  filter: alpha(opacity=75);
+  -moz-opacity: 0.75;
+  opacity: 0.75;
+}
+
+::-moz-selection {
+  background: #efefef;
+  color: #010101;
+}
+
+::selection {
+  background: #efefef;
+  color: #010101;
+}
+
+img {
+  border: none;
+}
+
+/*-------------------------*/
+/*
+$color1: #7E7F72;
+$color2: #BDA54A;
+$color3: #C1B298;
+$color4: #B68C76;
+$color5: #888C91;
+$color6: #919D67;
+$color7: #558A8B;
+$color8: #7E7F72;
+*/
+a {
+  color: #121212;
+  text-decoration: none;
+  outline: none;
+}
+
+a:hover {
+  color: #121212;
+  text-decoration: underline;
+}
+
+a:hover.transparent img {
+  filter: alpha(opacity=75);
+  -moz-opacity: 0.75;
+  opacity: 0.75;
+}
+
+::-moz-selection {
+  background: #c1bb1c;
+  color: #ffffff;
+}
+
+::selection {
+  background: #c1bb1c;
+  color: #ffffff;
+}
+
+img {
+  border: none;
+}
+
+em, strong {
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*-------------------------*/
+.en {
+  font-family: 'EB Garamond', serif;
+  letter-spacing: 1px;
+}
+
+.clearfix {
+  display: block;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.readTxt {
+  color: #666666;
+  font-size: 13px;
+  letter-spacing: 1px;
+  display: block;
+  line-height: 2;
+}
+
+/*-------------------------*/
+#wrapper {
+  text-align: center;
+}
+#wrapper h1, #wrapper h2 {
+  display: none;
+}
+#wrapper h1 {
+  margin-bottom: 35px;
+}
+#wrapper h2 {
+  position: relative;
+}
+#wrapper h2 .copy {
+  position: relative;
+  left: -10px;
+}
+#wrapper h2 .btnBlog {
+  position: relative;
+  top: -4px;
+  right: -1px;
+}
+
+#loader {
+  margin: -21px 0 0 -41px;
+  width: 83px;
+  height: 42px;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+}
+
+@media screen and (max-height: 739px) {
+  #wrapper {
+    width: 907px;
+    margin: 0 auto;
+    padding: 100px 0;
+  }
+}
+@media screen and (min-height: 740px) {
+  #wrapper {
+    margin: -237px 0 0 -453px;
+    width: 907px;
+    height: 475px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+  }
+}

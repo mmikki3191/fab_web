@@ -1,0 +1,188 @@
+/*-------------------------*/
+.jpCopy {
+  font-size: 13px;
+  letter-spacing: 1px;
+  margin-bottom: 60px;
+  font-weight: bold;
+}
+.jpCopy:before {
+  content: '-';
+  padding-right: 10px;
+}
+
+.mainContents {
+  width: 810px;
+}
+.mainContents section {
+  margin-bottom: 100px;
+  width: 810px !important;
+}
+
+.pageTitle {
+  margin-bottom: 30px;
+}
+
+section.staff {
+  margin-bottom: 120px;
+}
+section.staff .clearfix {
+  width: 100%;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #dedede;
+}
+section.staff .clearfix:first-child {
+  padding-top: 20px;
+  border-top: 1px solid #dedede;
+}
+section.staff .clearfix h2 {
+  font-size: 11px;
+  letter-spacing: 1px;
+  color: #121212;
+  width: 230px;
+  padding-left: 10px;
+  float: left;
+  font-weight: bold;
+}
+section.staff .clearfix .fR {
+  float: left;
+  width: 570px;
+}
+section.staff .clearfix .fR ul li {
+  display: inline;
+  float: left;
+  margin-left: 35px;
+  width: 143px;
+}
+section.staff .clearfix .fR ul li strong {
+  font-size: 14px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 4px;
+  letter-spacing: 1px;
+}
+section.staff .clearfix .fR ul li em {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-style: normal;
+  color: #999999;
+  letter-spacing: 2px;
+  font-size: 10px;
+}
+section.staff .clearfix .fR ul li:nth-child(4n-3) {
+  margin-left: 0;
+}
+section.staff .clearfix .fR .mbUl {
+  display: block;
+}
+section.staff .clearfix .fR .mbUl li {
+  display: block;
+  margin-bottom: 20px;
+}
+
+section.tools .copySet {
+  margin-bottom: 60px;
+}
+section.tools .clearfix {
+  width: 100%;
+  margin: 0 auto;
+}
+section.tools .clearfix article {
+  float: left;
+  width: 236px;
+  margin-bottom: 45px;
+  display: inline;
+  margin-left: 47px;
+}
+section.tools .clearfix article p.thumb img {
+  border: 5px solid #eeeeee;
+  vertical-align: bottom;
+}
+section.tools .clearfix article strong, section.tools .clearfix article em, section.tools .clearfix article span {
+  padding: 0 5px;
+}
+section.tools .clearfix article strong {
+  font-size: 11px;
+  letter-spacing: 2px;
+  display: block;
+  margin: 25px 0 8px;
+}
+section.tools .clearfix article em {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-style: normal;
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  display: block;
+}
+section.tools .clearfix article span {
+  color: #999999;
+  font-size: 11px;
+  letter-spacing: 1px;
+  line-height: 1.8;
+  display: block;
+  margin-top: 20px;
+  text-align: justify;
+}
+section.tools .clearfix article span span {
+  display: block;
+  margin: 14px 0 18px;
+}
+section.tools .clearfix article span a {
+  display: block;
+  background: #aaaaaa;
+  color: #ffffff;
+  text-align: center;
+  padding: 8px 0;
+  line-height: 1;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  text-decoration: none;
+}
+section.tools .clearfix article:nth-child(3n+1) {
+  margin-left: 0 !important;
+}
+section.tools .clearfix article:nth-child(3n) {
+  margin-bottom: 85px;
+}
+
+section.access {
+  width: 810px !important;
+  margin-bottom: 180px;
+}
+section.access .copySet {
+  margin-bottom: 55px;
+}
+section.access #gMap {
+  width: 810px !important;
+  height: 470px;
+  margin-bottom: 30px;
+}
+section.access .aWrap {
+  width: 100%;
+  /* aL */
+}
+section.access .aWrap figure {
+    width: 390px;
+    height: 260px;
+    margin: 0;
+}
+section.access .aWrap figure img {
+    width: 100%;
+}
+section.access .aWrap .aL {
+  float: left;
+}
+section.access .aWrap .aR {
+  float: right;
+}
+section.access .howtogo {
+    margin-top: 30px;
+    line-height: 2.2;
+    color: #999999;
+    font-size: 13px;
+}

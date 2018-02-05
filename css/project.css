@@ -1,0 +1,171 @@
+@charset "UTF-8";
+/*-------------------------*/
+.projectArchiveWrap {
+  padding-top: 20px;
+}
+.projectArchiveWrap article {
+  width: 220px;
+  float: left;
+  display: inline;
+  margin: 0 0 55px 40px;
+  min-height: 350px;
+}
+.projectArchiveWrap article:nth-child(4n-3) {
+  margin-left: 0;
+}
+.projectArchiveWrap article .thumb img {
+  width: 100%;
+  height: auto;
+}
+.projectArchiveWrap article .txtSet {
+  text-align: center;
+  padding: 10px 7px 0;
+}
+.projectArchiveWrap article em {
+  font-family: "Source Sans Pro", "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  font-size: 13px;
+  color: #d4bc00;
+  text-transform: uppercase;
+  display: block;
+  margin: 14px 0 10px;
+  letter-spacing: 2px;
+}
+.projectArchiveWrap article h2 {
+  margin: 14px 0 7px;
+  display: block;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 1.7;
+}
+.projectArchiveWrap article h2 a {
+  text-decoration: none;
+}
+.projectArchiveWrap article strong {
+  font-size: 11px;
+  letter-spacing: 1px;
+  line-height: 1.6;
+  font-family: "Source Sans Pro", "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  font-style: italic;
+}
+
+.single-evnet .mainContents {
+  width: 1000px !important;
+}
+
+.projectSingleWrap {
+  width: 1000px !important;
+  margin: 0 auto;
+}
+.projectSingleWrap .postContents {
+  width: 680px;
+  float: left;
+}
+.projectSingleWrap .postWrap {
+  padding-bottom: 90px;
+  margin-bottom: 35px;
+  position: relative;
+}
+.projectSingleWrap .postWrap .postHeader {
+  margin-bottom: 30px;
+}
+.projectSingleWrap .postWrap .postHeader h2 {
+  margin-bottom: 7px;
+  line-height: 1.6;
+  font-size: 18px;
+}
+.projectSingleWrap .postWrap .postHeader h3 {
+  font-family: "Source Sans Pro", "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  font-size: 11px;
+  letter-spacing: 2px;
+  display: inline;
+}
+.projectSingleWrap .postWrap .postHeader h4 {
+  font-family: "Source Sans Pro", "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  font-size: 11px;
+  letter-spacing: 2px;
+  display: inline;
+}
+.projectSingleWrap .postWrap .postHeader h4:before {
+  content: '/';
+  padding: 0 10px 0 6px;
+}
+.projectSingleWrap .postWrap .post {
+  margin-top: 15px;
+}
+.projectSingleWrap .postWrap .post p {
+  line-height: 2;
+  color: #666666;
+  text-align: justify;
+  font-size: 13px;
+  letter-spacing: 1px;
+  margin-bottom: 1em;
+}
+.projectSingleWrap .postWrap .post p img {
+  display: block;
+  margin-bottom: 20px;
+}
+.projectSingleWrap .postWrap .snsBox {
+  width: 100%;
+  margin-top: 100px;
+}
+.projectSingleWrap .postWrap .snsBox div {
+  margin-bottom: 7px;
+  float: left;
+  display: inline;
+  margin-right: 20px;
+}
+.projectSingleWrap .postWrap .snsBox .twitter {
+  width: 90px !important;
+}
+.projectSingleWrap aside {
+  width: 225px;
+  float: right;
+  position: relative;
+  top: -48px;
+}
+.projectSingleWrap aside section {
+  color: #666666;
+}
+.projectSingleWrap aside section a {
+  color: #666666;
+}
+.projectSingleWrap aside section h1 {
+  font-family: "Source Sans Pro", "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  color: #121212;
+  font-size: 14px;
+  margin: 55px 0 35px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.projectSingleWrap aside section dl {
+  width: 100%;
+  margin-bottom: 15px;
+}
+.projectSingleWrap aside section dl dt {
+  float: left;
+  width: 80px;
+}
+.projectSingleWrap aside section dl dt img {
+  vertical-align: baseline;
+}
+.projectSingleWrap aside section dl dd {
+  padding-left: 80px;
+}
+.projectSingleWrap aside section dl dd em {
+  font-family: "Source Sans Pro", "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  font-size: 10px;
+  letter-spacing: 2px;
+  display: block;
+  margin: 3px 0 10px;
+}
+.projectSingleWrap aside section dl dd strong {
+  font-size: 12px;
+  line-height: 1.6;
+}
+.projectSingleWrap aside section dl dd strong a {
+  text-decoration: none;
+}
+.projectSingleWrap aside .fb-like-box {
+  border: 1px solid #dedede;
+  margin-top: 45px;
+}

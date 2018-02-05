@@ -1,0 +1,42 @@
+.mainContents {
+  width: 860px;
+  padding-left: 90px;
+}
+
+.pageTitle {
+  margin-bottom: 70px !important;
+}
+
+section#sec1 {
+  width: 100%;
+}
+section#sec1 ul.clearfix {
+  width: 100%;
+  position: relative;
+}
+section#sec1 ul.clearfix li {
+  width: 230px;
+  float: left;
+  margin-right: 50px;
+  margin-bottom: 40px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: 1px;
+}
+section#sec1 ul.clearfix li h2 {
+  margin-bottom: 5px;
+  font-size: 17px;
+}
+section#sec1 ul.clearfix li span {
+  font-size: 12px;
+}
+section#sec1 ul.clearfix li span a {
+  color: #999;
+}
+section#sec1 ul.linkBox:nth-child(2) {
+  margin-right: 20px;
+}
+section#sec1 ul.linkBox:last-child {
+  margin-right: 0;
+}

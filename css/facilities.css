@@ -1,0 +1,154 @@
+/*-------------------------*/
+.mainContents {
+  width: 1000px;
+}
+.mainContents section {
+  width: 1000px;
+  margin-bottom: 100px;
+}
+.pageTitle {
+  margin-bottom: 75px;
+}
+
+.pageNavi {
+  margin-bottom: 70px;
+  text-align: center;
+  font-size: 17px;
+  color: #666;
+}
+.machine{
+  padding-top: 70px;
+  margin-bottom: 75px;
+}
+.service {
+}
+.facilities_h2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1000px;
+  overflow: hidden;
+  padding: 7px 0;
+  margin-bottom: 40px;
+}
+.facilities_h2 h2 {
+  display: inline-block;
+}
+.facilities_h2 .sub {
+  color: #666;
+  font-size: 13px;
+}
+.machine .facilities_h2 {
+  border-bottom: 5px solid #e9d05d;
+}
+.service .facilities_h2 {
+  border-bottom: 5px solid #228f6f;
+}
+.facilities_h2_sub {
+  float: right;
+  margin: 16px 0;
+}
+#machine_facilities_h2_wrap {
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.facility {
+  width: 460px;
+  position: relative;
+  margin-bottom: 40px;
+}
+.facility:nth-of-type(2n-1) {
+  float: left;
+}
+.facility:nth-of-type(2n) {
+  float: right;
+}
+.facility__kind {
+  margin-bottom: 7px;
+  font-size: 13px;
+}
+.facility__name {
+  margin-bottom: 19px;
+  font-size: 13px;
+  font-weight: bold;
+}
+.facility .l-wrap {
+  margin-bottom: 16px;
+}
+.facility__imageBox {
+  float: left;
+  width: 180px;
+  height: 135px;
+  overflow: hidden;
+}
+.facility__imageBox img {
+  width: 100%;
+}
+.facility__textBox {
+  position: relative;
+  float: right;
+  width: 250px;
+  height: 135px;
+  margin-top: 3px;
+  line-height: 1.73;
+  font-size: 11px;
+  color: #666;
+}
+.facility__textBox p {
+  margin-bottom: 20px;
+}
+.facility__textBox p#note {
+  color: #000;
+}
+.facility__textBox__button {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  color: #fff;
+}
+
+.facility__textBox__button2 {
+  position: absolute;
+  right: 0;
+  bottom: 30px;
+  color: #fff;
+}
+
+/*
+.facility__textBox__button img {
+  zoom : 0.5;
+}
+*/
+.facility__table {
+  width: 100%;
+}
+.facility__table, .facility__table th, .facility__table td {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+}
+.facility__table th, .facility__table td {
+  height: 25px;
+  vertical-align: middle;
+  font-size: 10px;
+  color: #000;
+}
+.facility__table th {
+  width: 100px;
+  font-weight: normal;
+}
+.facility__table td {
+  padding-left: 8px;
+}
+.facility__table td span {
+  font-size: 8px;
+  padding-left: 8px;
+}
+
+.icon_new {
+  position: absolute;
+}
+#icon_shopbot_new {
+  top: 16px;
+  left: 190px;
+}

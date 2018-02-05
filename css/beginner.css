@@ -1,0 +1,286 @@
+@charset "UTF-8";
+header {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.mainContents {
+  width: 100%;
+  margin-top: 170px !important;
+}
+
+.mobile .mainContents {
+  margin-top: 40px !important;
+}
+
+.pageTitle {
+  margin-bottom: 28px !important;
+  padding-left: 20px;
+  text-align: center;
+}
+
+.pnav {
+  position: relative;
+  overflow: hidden;
+  width: auto !important;
+  margin-bottom: 60px;
+}
+.pnav ul {
+  width: auto;
+  position: relative;
+  left: 50%;
+  float: left;
+}
+.pnav ul li {
+  position: relative;
+  left: -50%;
+  float: left;
+}
+
+.joinus,
+.diy {
+  margin-bottom: 145px;
+}
+.joinus .titset_L,
+.diy .titset_L {
+  width: 835px;
+  margin: 0 auto 50px;
+}
+.joinus .titset_L h1,
+.diy .titset_L h1 {
+  display: inline;
+  width: 430px;
+  float: left;
+  padding-left: 25px;
+}
+.joinus .titset_L strong,
+.diy .titset_L strong {
+  display: block;
+  float: right;
+  padding-right: 45px;
+}
+.joinus .clearfix,
+.diy .clearfix {
+  width: 930px;
+  margin: 0 auto 65px;
+}
+.joinus .clearfix .titset_S,
+.diy .clearfix .titset_S {
+  width: 110px;
+}
+.joinus .clearfix .titset_S h2,
+.diy .clearfix .titset_S h2 {
+  padding-left: 20px;
+  background: url(../img/beginner/bar.gif) no-repeat left center;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 1;
+}
+.joinus .clearfix .titset_S em,
+.diy .clearfix .titset_S em {
+  display: inline-block;
+  padding-left: 21px;
+  padding-top: 10px;
+  font-size: 10px;
+  line-height: 1.6;
+  letter-spacing: 2px;
+  color: #D3BB00;
+  font-family: "Source Sans Pro", "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+.joinus .clearfix p,
+.diy .clearfix p {
+  float: left;
+}
+.joinus .clearfix span,
+.diy .clearfix span {
+  line-height: 2;
+  letter-spacing: 1px;
+  font-size: 13px;
+}
+.joinus .clearfix .btnMore,
+.diy .clearfix .btnMore {
+  display: block;
+  margin: 20px 0 0 0;
+  position: relative;
+  left: 40px;
+  border-radius: 4px;
+  padding: 10px 15px;
+  background-color: #444444;
+  text-align: center;
+  font-size: 11px;
+  line-height: 1;
+  letter-spacing: 1px;
+}
+.joinus .clearfix .btnMore a,
+.diy .clearfix .btnMore a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.joinus {
+  margin-top: 100px;
+}
+.joinus .titset_S {
+  float: left;
+  padding-top: 34px;
+}
+.joinus p {
+  margin-left: 40px;
+}
+.joinus span {
+  display: block;
+  float: left;
+  margin-left: 43px;
+  padding-top: 15px;
+}
+
+.experience span {
+  padding-top: 0 !important;
+}
+
+.diy .priceLeft {
+  float: left;
+  width: 385px;
+}
+.diy .priceLeft .titset_S {
+  margin-bottom: 25px;
+}
+.diy .priceLeft span {
+  display: block;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.diy .priceLeft .note {
+  display: block;
+  margin-left: 20px;
+  margin-bottom: 30px;
+  color: #999999;
+  font-size: 11px;
+  line-height: 1;
+  letter-spacing: 0;
+}
+.diy table {
+  margin-left: 20px;
+  width: 310px;
+  border-top: 1px solid #dddddd;
+  border-right: 1px solid #dddddd;
+}
+.diy table tr th,
+.diy table tr td {
+  font-size: 12px;
+  letter-spacing: 1px;
+  padding: 13px 4px;
+}
+.diy table tr th {
+  border-left: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+  background: #efefef;
+  text-align: center;
+}
+.diy table tr td {
+  border-left: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+  text-align: left;
+}
+.diy table tr td:last-child {
+  text-align: right;
+}
+.diy table tr .center {
+  text-align: center;
+}
+
+.accessInfo {
+  width: 100%;
+  margin: 0 auto;
+}
+.accessInfo h1 {
+  width: 880px;
+  margin: 0 auto 60px;
+  text-align: left;
+}
+.accessInfo .aWrap {
+  width: 880px;
+  margin: 0 auto;
+  text-align: left;
+}
+.accessInfo .aWrap .aL {
+  float: left;
+  padding-top: 5px;
+  width: 220px;
+  padding-left: 5px;
+}
+.accessInfo .aWrap .aL h2 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 15px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  text-align: left;
+  font-weight: 600;
+}
+.accessInfo .aWrap .aL h3 {
+  font-size: 10px;
+  text-align: left;
+}
+.accessInfo .aWrap .aR {
+  float: left;
+  width: 500px;
+}
+.accessInfo .aWrap .aR span {
+  text-align: left;
+  line-height: 2;
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: #999999;
+  font-family: "Source Sans Pro", "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+.accessInfo .aWrap .aR span .tel {
+  font-size: 18px;
+  font-weight: 600;
+  font-style: italic;
+  letter-spacing: 1px;
+  color: #121212;
+  background: linear-gradient(transparent 60%, #ffff66 60%);
+}
+.accessInfo #gMap {
+  width: 100%;
+  height: 470px;
+  margin: 60px 0 40px;
+}
+
+.slideFrame {
+  position: relative;
+  overflow: hidden;
+  overflow-x: auto;
+  width: 100%;
+  height: 512px;
+}
+
+.slideGuide {
+  width: 150%;
+  height: 100%;
+}
+
+.slideCell {
+  display: block;
+  float: left;
+  margin-right: 8px;
+  width: 512px;
+  height: 512px;
+  position: relative;
+}
+
+.cell {
+  display: block;
+  float: left;
+  margin-right: 5px;
+  width: 200px;
+  height: 100%;
+  background: #FFF;
+}

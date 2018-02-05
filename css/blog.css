@@ -1,0 +1,214 @@
+@charset "UTF-8";
+/*-------------------------*/
+.mainContents {
+  width: 100%;
+}
+
+.pageTitle {
+  width: 1000px;
+  text-align: left;
+  margin: 0 auto 50px !important;
+}
+
+.blogWrap {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.postContents {
+  width: 680px;
+  float: left;
+}
+
+.postWrap {
+  padding-bottom: 90px;
+  margin-bottom: 35px;
+  position: relative;
+}
+.postWrap .postHeader {
+  margin-bottom: 30px;
+}
+.postWrap .postHeader h2 {
+  margin-bottom: 10px;
+  line-height: 1.6;
+  font-size: 18px;
+}
+.postWrap .postHeader .dayCat {
+  font-family: "Source Sans Pro", "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  font-size: 10px;
+  letter-spacing: 2px;
+}
+.postWrap .post p {
+  line-height: 2;
+  color: #666666;
+  text-align: justify;
+  font-size: 13px;
+  letter-spacing: 1px;
+  margin-bottom: 1em;
+}
+.postWrap .post p img {
+  display: block;
+  margin-bottom: 20px;
+}
+.postWrap .snsBox {
+  width: 100%;
+  margin-top: 40px;
+}
+.postWrap .snsBox div {
+  margin-bottom: 7px;
+  float: left;
+  display: inline;
+  margin-right: 20px;
+}
+.postWrap .snsBox .twitter {
+  width: 90px !important;
+}
+
+#nav-below {
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+#nav-below .prev {
+  float: left;
+  width: 48%;
+}
+#nav-below .next {
+  float: right;
+  width: 48%;
+  text-align: right;
+}
+
+.otherPost {
+  margin: 140px 0 160px;
+}
+.otherPost article {
+  margin-top: 20px;
+  width: 100%;
+}
+.otherPost article .thumb {
+  float: left;
+  margin-right: 20px;
+}
+.otherPost article .fR {
+  padding-top: 18px;
+}
+.otherPost article .fR .day {
+  font-family: "Source Sans Pro", "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  font-size: 10px;
+  display: block;
+  margin: 0 0 8px;
+  color: #666666;
+  letter-spacing: 2px;
+}
+.otherPost article .fR strong {
+  font-size: 13px;
+  letter-spacing: 1px;
+  line-height: 1.6;
+}
+.otherPost article .fR strong a {
+  display: block;
+  width: 584px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-text-overflow: ellipsis;
+}
+
+aside {
+  width: 220px;
+  float: right;
+}
+aside .viewAll {
+  font-family: "Source Sans Pro", "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  font-size: 12px;
+  margin-top: 40px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+aside .viewAll a {
+  width: 100%;
+  text-align: center;
+  padding: 14px 0;
+  border: 1px solid #dedede;
+  display: block;
+}
+aside section {
+  color: #666666;
+}
+aside section a {
+  color: #666666;
+}
+aside section h1 {
+  font-family: "Source Sans Pro", "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  color: #121212;
+  font-size: 14px;
+  margin: 55px 0 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+aside section ul {
+  display: block;
+}
+aside section ul li {
+  line-height: 1.6;
+  font-size: 13px;
+  letter-spacing: 1px;
+  display: block;
+  margin-bottom: 10px;
+  font-family: Verdana, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  padding-left: 11px;
+  background: url(../img/teaser/bg_list.gif) no-repeat left 9px;
+}
+aside .recentpost h1 {
+  margin-top: 5px;
+}
+aside .recentpost ul li {
+  margin-bottom: 20px;
+}
+aside .fb-like-box {
+  border: 1px solid #dedede;
+  margin-top: 45px;
+}
+
+#pageNaviWrap {
+  padding-bottom: 60px;
+  font-family: "Source Sans Pro", "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  font-size: 12px;
+}
+#pageNaviWrap .current,
+#pageNaviWrap a {
+  text-align: center;
+  padding: 12px 15px;
+  border: 1px solid #dedede;
+  float: left;
+  margin-right: 10px;
+}
+#pageNaviWrap .current {
+  background: #efefef;
+}
+
+.postMap {
+  margin-top: 70px;
+}
+.postMap strong {
+  font-family: "Source Sans Pro", "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  font-size: 12px;
+  letter-spacing: 1px;
+  display: block;
+  margin-bottom: 16px;
+}
+.postMap span {
+  font-size: 13px;
+  display: block;
+  color: #666666;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+}
+.postMap span a {
+  color: #666666;
+}
+.postMap .gMap {
+  width: 680px;
+  height: 400px;
+}

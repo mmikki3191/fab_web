@@ -1,0 +1,118 @@
+@charset "UTF-8";
+.mainContents {
+  width: 860px;
+  padding-left: 90px;
+}
+
+.atn {
+  display: block;
+  font-size: 13px;
+  letter-spacing: 1px;
+  margin-top: 25px;
+  line-height: 1.9;
+  color: #666666;
+}
+.atn li {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.formWrap {
+  margin: 60px 0 40px;
+}
+.formWrap ul li {
+  display: block;
+  margin-bottom: 10px;
+}
+.formWrap ul li input {
+  border: 1px solid #aaaaaa;
+  background: none;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  padding: 10px 11px;
+  font-size: 13px;
+  letter-spacing: 1px;
+  width: 700px;
+}
+.formWrap ul .radio {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+.formWrap ul .radio input {
+  width: inherit;
+}
+.formWrap ul .radio .wpcf7-list-item-label {
+  padding-right: 15px;
+}
+.formWrap .message textarea {
+  width: 700px;
+  padding: 10px 11px;
+  border: 1px solid #aaaaaa;
+  background: none;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+}
+.formWrap #btnSend input {
+  background: none;
+  font-family: "Source Sans Pro", "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  letter-spacing: 1px;
+  font-style: italic;
+  font-size: 13px;
+}
+
+#btnSend input {
+  background: none;
+  border: none;
+  font-family: "Source Sans Pro", "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  letter-spacing: 1px;
+  font-style: italic;
+  font-size: 15px;
+  padding: 0;
+  transition: all 0.2s linear 0;
+  -moz-transition: all 0.2s linear 0;
+  -webkit-transition: all 0.2s linear 0;
+  background: #444444;
+  font-family: "Source Sans Pro", "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  font-size: 13px;
+  letter-spacing: 1px;
+  padding: 7px 16px;
+  color: #ffffff;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+}
+#btnSend input:hover {
+  cursor: pointer;
+  filter: alpha(opacity=40);
+  -moz-opacity: 0.40;
+  opacity: 0.40;
+}
+
+.wpcf7-mail-sent-ok,
+.wpcf7-validation-errors {
+  font-size: 11px;
+  margin-top: 30px;
+  letter-spacing: 1px;
+  color: #c00;
+}
+
+.screen-reader-response {
+  font-size: 11px;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+  line-height: 1.7;
+  color: #c00;
+  display: none;
+}
+
+.wpcf7-not-valid-tip {
+  font-size: 11px;
+  letter-spacing: 1px;
+  padding-top: 11px;
+  display: block;
+  color: #c00;
+}

@@ -1,0 +1,157 @@
+/*-------------------------*/
+.msg .first h2 {
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin: 60px 0 30px;
+}
+.msg .first h2:first-child {
+  margin-top: 0;
+}
+.msg .first .readTxt {
+  line-height: 2.2;
+  font-size: 13px;
+  padding-left: 25px;
+}
+.msg .first h3,
+.msg .first em {
+  letter-spacing: 1px;
+  padding-left: 25px;
+  color: #999999;
+}
+.msg .first h3 {
+  font-size: 13px;
+  margin: 55px 0 1em;
+}
+.msg .first em {
+  font-size: 11px;
+  line-height: 2.0;
+  display: block;
+}
+.msg dl {
+  margin-top: 110px;
+}
+.msg dl dt {
+  margin-bottom: 55px;
+  letter-spacing: 2px;
+}
+.msg dl dd ul li {
+  display: block;
+  margin-bottom: 45px;
+}
+.msg dl dd ul li strong {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+.msg dl dd ul li span {
+  font-size: 12px;
+  padding-left: 26px;
+}
+h2 {
+    text-align: center;
+}
+h2 img, .bannarList .imageBox img {
+    zoom: .5;
+}
+.l-left {
+    float: left;
+}
+.l-right {
+    float: right;
+}
+.first section:nth-child(2n+1) .l-left {
+    width: 30%;
+}
+.first section:nth-child(2n+1) .l-right {
+    width: 70%;
+    box-sizing: border-box;
+    padding-left: 45px;
+}
+.first section:nth-child(2n) .l-left {
+    width: 70%;
+    box-sizing: border-box;
+    padding-right: 45px;
+}
+.first section:nth-child(2n) .l-right {
+    width: 30%;
+}
+#about {
+    width: 1000px;
+}
+.readTxt a {
+    display: block;
+    background: url(../img/fablabdazaifu/about_icn_arrow.png)left center;
+    background-repeat: no-repeat;
+    background-size: 33px 12px;
+    padding-left: 48px;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+.bannarList li {
+    float: left;
+    width: 300px;
+    height: 345px;
+    margin-right: 50px;
+}
+.bannarList li:last-child {
+    margin-right: 0;
+}
+.bannarList .imageBox {
+    height: 102px;
+    overflow: hidden;
+}
+.bannarList .textBox.readTxt {
+    position: relative;
+    height: 238px;
+    padding-left: 0;
+    padding: 12px;
+    box-sizing: border-box;
+    border-left: 1px solid #95989A;
+    border-right: 1px solid #95989A;
+    border-bottom: 1px solid #95989A;
+    
+}
+.bannarList .textBox.readTxt p {
+    line-height: 1.5;
+}
+.bannarList .textBox.readTxt .linkBox {
+    position: absolute;
+    height: 45px;
+    bottom: 12px;
+}
+.bannarList .textBox.readTxt .linkBox a {
+    line-height: 1.5;
+}
+.content01, .content02, .content03 {
+    margin-bottom: 90px;
+}
+.content01 .readTxt, .content02 .readTxt {
+    height: 200px;
+}
+.content03 .readTxt {
+    height: 320px;
+}
+.content04 .readTxt.center {
+    padding-left: 0;
+    text-align: center;
+}
+
+.content01 .readTxt, .content02 .readTxt, .content03 .readTxt {
+    position: relative;
+}
+.content01 .readTxt a, .content02 .readTxt a, .content03 .readTxt a {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.mb20 {
+    margin-bottom: 20px;
+}
+.mb40 {
+    margin-bottom: 40px;
+}
+.mb95 {
+    margin-bottom: 90px !important;
+}

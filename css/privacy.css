@@ -1,0 +1,38 @@
+.pageTitle {
+  margin-bottom: 40px !important;
+}
+
+.mainContents {
+  width: 830px;
+}
+.mainContents section#sec1 {
+  width: 100%;
+}
+.mainContents section#sec1 .title, .mainContents section#sec1 li, .mainContents section#sec1 .name {
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 24px;
+}
+.mainContents section#sec1 li {
+  margin-bottom: 20px;
+}
+.mainContents section#sec1 li dl dt {
+  margin: 40px 0 10px;
+}
+.mainContents section#sec1 li dl dd {
+  color: #999999;
+  padding-left: 20px;
+}
+.mainContents section#sec1 li:first-child dl dt {
+  margin-top: 0;
+}
+.mainContents section#sec1 span.title, .mainContents section#sec1 ol {
+  display: inline-block;
+  margin-bottom: 40px;
+}
+.mainContents section#sec1 .name {
+  display: inline-block;
+}
+.mainContents section#sec1 .title {
+  line-height: 2.1;
+}

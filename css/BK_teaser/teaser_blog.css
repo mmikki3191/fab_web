@@ -1,0 +1,446 @@
+@charset "UTF-8";
+/*
+Theme Name: fablabdazaifu
+Theme URI: http://fablabdazaifu.com
+Version: 1.0
+*/
+/* =Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html
+-------------------------------------------------------------- */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  background: transparent;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+body {
+  line-height: 1;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  clear: both;
+  font-weight: normal;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a img {
+  border: none;
+}
+
+/*-------------------------------------*/
+/*-------------------------------------*/
+/*//clearFix Coponents//*/
+.clearfix {
+  display: block;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.clearfix:after {
+  display: block;
+  clear: both;
+  height: 0;
+}
+
+a {
+  color: #121212;
+  text-decoration: underline;
+  outline: none;
+}
+
+a:hover {
+  color: #999999;
+  text-decoration: underline;
+}
+
+a:hover.transparent img {
+  filter: alpha(opacity=75);
+  -moz-opacity: 0.75;
+  opacity: 0.75;
+}
+
+::-moz-selection {
+  background: #efefef;
+  color: #010101;
+}
+
+::selection {
+  background: #efefef;
+  color: #010101;
+}
+
+img {
+  border: none;
+}
+
+/*-------------------------*/
+/*
+$color1: #7E7F72;
+$color2: #BDA54A;
+$color3: #C1B298;
+$color4: #B68C76;
+$color5: #888C91;
+$color6: #919D67;
+$color7: #558A8B;
+$color8: #7E7F72;
+*/
+a {
+  color: #121212;
+  text-decoration: none;
+  outline: none;
+}
+
+a:hover {
+  color: #121212;
+  text-decoration: underline;
+}
+
+a:hover.transparent img {
+  filter: alpha(opacity=75);
+  -moz-opacity: 0.75;
+  opacity: 0.75;
+}
+
+::-moz-selection {
+  background: #c1bb1c;
+  color: #ffffff;
+}
+
+::selection {
+  background: #c1bb1c;
+  color: #ffffff;
+}
+
+img {
+  border: none;
+}
+
+em, strong {
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*-------------------------*/
+.en {
+  font-family: 'EB Garamond', serif;
+  letter-spacing: 1px;
+}
+
+.clearfix {
+  display: block;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.readTxt {
+  color: #666666;
+  font-size: 13px;
+  letter-spacing: 1px;
+  display: block;
+  line-height: 2;
+}
+
+/*-------------------------*/
+#wrapper {
+  width: 960px;
+  margin: 0 auto;
+  font-family: Verdana, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+
+header {
+  margin: 0px 0 95px;
+  padding-top: 100px;
+  width: 980px;
+  position: relative;
+  left: -10px;
+  /*     border-bottom: 1px solid #aaaaaa; */
+  /*     padding-bottom: 50px; */
+}
+header h1 {
+  text-align: center;
+}
+
+.postContents {
+  width: 680px;
+  float: left;
+}
+
+.postWrap {
+  padding-bottom: 90px;
+  margin-bottom: 35px;
+  position: relative;
+}
+.postWrap .postHeader {
+  margin-bottom: 30px;
+}
+.postWrap .postHeader h2 {
+  margin-bottom: 10px;
+  line-height: 1.6;
+  font-size: 18px;
+}
+.postWrap .postHeader .dayCat {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 10px;
+  letter-spacing: 2px;
+}
+.postWrap .post p {
+  line-height: 2;
+  color: #666666;
+  text-align: justify;
+  font-size: 13px;
+  letter-spacing: 1px;
+  margin-bottom: 1em;
+}
+.postWrap .post p img {
+  display: block;
+  margin-bottom: 20px;
+}
+.postWrap .snsBox {
+  width: 100%;
+  margin-top: 40px;
+}
+.postWrap .snsBox div {
+  margin-bottom: 7px;
+  float: left;
+  display: inline;
+  margin-right: 20px;
+}
+.postWrap .snsBox .twitter {
+  width: 90px !important;
+}
+
+#nav-below {
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+#nav-below .prev {
+  float: left;
+  width: 48%;
+}
+#nav-below .next {
+  float: right;
+  width: 48%;
+  text-align: right;
+}
+
+.otherPost {
+  margin: 140px 0 160px;
+}
+.otherPost article {
+  margin-top: 20px;
+  width: 100%;
+}
+.otherPost article .thumb {
+  float: left;
+  margin-right: 20px;
+}
+.otherPost article .fR {
+  padding-top: 18px;
+}
+.otherPost article .fR .day {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 10px;
+  display: block;
+  margin: 0 0 8px;
+  color: #666666;
+  letter-spacing: 2px;
+}
+.otherPost article .fR strong {
+  font-size: 13px;
+  letter-spacing: 1px;
+  line-height: 1.6;
+}
+.otherPost article .fR strong a {
+  display: block;
+  width: 584px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-text-overflow: ellipsis;
+}
+
+aside {
+  width: 220px;
+  float: right;
+}
+aside .viewAll {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 12px;
+  margin-top: 40px;
+}
+aside .viewAll a {
+  width: 100%;
+  text-align: center;
+  padding: 14px 0;
+  border: 1px solid #dedede;
+  display: block;
+}
+aside section {
+  color: #666666;
+  /*
+          dl{
+              dt{
+                  font-size: 11px;
+                  font-family: 'Oswald', sans-serif;
+                  text-transform: uppercase;
+                  letter-spacing: 2px;
+                  margin: 30px 0 10px;     
+              }
+              dd{
+                  line-height: 1.6;
+                  font-size: 13px;
+                  letter-spacing: 1px;
+                  a{
+                      text-decoration: underline;
+                  }
+              }
+          }
+  */
+}
+aside section a {
+  color: #666666;
+}
+aside section h1 {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #121212;
+  font-size: 13px;
+  margin: 55px 0 30px;
+}
+aside section ul {
+  display: block;
+}
+aside section ul li {
+  line-height: 1.6;
+  font-size: 13px;
+  letter-spacing: 1px;
+  display: block;
+  margin-bottom: 10px;
+  font-family: Verdana, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  padding-left: 11px;
+  background: url(../img/teaser/bg_list.gif) no-repeat left 9px;
+}
+aside .recentpost h1 {
+  margin-top: 5px;
+}
+aside .recentpost ul li {
+  margin-bottom: 20px;
+}
+aside .fb-like-box {
+  border: 1px solid #dedede;
+  margin-top: 45px;
+}
+
+footer {
+  margin: 140px 0 80px;
+}
+footer small {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 11px;
+}
+footer .btnPageTop {
+  position: fixed;
+  right: 50px;
+  bottom: -90px;
+}
+
+#pageNaviWrap {
+  padding-bottom: 60px;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 12px;
+}
+#pageNaviWrap .current,
+#pageNaviWrap a {
+  text-align: center;
+  padding: 12px 15px;
+  border: 1px solid #dedede;
+  float: left;
+  margin-right: 10px;
+}
+#pageNaviWrap .current {
+  background: #efefef;
+}
+
+.postMap {
+  margin-top: 70px;
+}
+.postMap strong {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 12px;
+  letter-spacing: 1px;
+  display: block;
+  margin-bottom: 16px;
+}
+.postMap span {
+  font-size: 13px;
+  display: block;
+  color: #666666;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+}
+.postMap span a {
+  color: #666666;
+}
+.postMap .gMap {
+  width: 680px;
+  height: 400px;
+}

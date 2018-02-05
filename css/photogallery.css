@@ -1,0 +1,32 @@
+@charset "UTF-8";
+.mainContents {
+  position: relative;
+}
+
+.btnInsta {
+  position: absolute;
+  top: 0px;
+  right: 2px;
+}
+.btnInsta a {
+  background: #444444;
+  font-family: "Source Sans Pro", "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  font-style: italic;
+  font-size: 13px;
+  letter-spacing: 2px;
+  padding: 14px 20px;
+  color: #ffffff;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+}
+.btnInsta a:hover {
+  text-decoration: none;
+}
+
+iframe#insta {
+  display: block;
+  padding-top: 30px;
+  position: relative;
+  left: -25px;
+}

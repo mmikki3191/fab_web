@@ -1,0 +1,402 @@
+@charset "UTF-8";
+body {
+  font-family: '游ゴシック', YuGothic, 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+  background: #ffffff;
+}
+
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+/*-------------------------*/
+a {
+  color: #666666;
+  text-decoration: underline;
+  outline: none;
+}
+
+a:hover {
+  color: #666666;
+  text-decoration: none;
+}
+
+::-moz-selection {
+  background: #d4bc00;
+  color: #ffffff;
+}
+
+::selection {
+  background: #d4bc00;
+  color: #ffffff;
+}
+
+img {
+  border: none;
+}
+
+em, strong {
+  font-weight: normal;
+  font-style: normal;
+}
+
+.clearfix {
+  display: block;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.readTxt {
+  color: #666666;
+  font-size: 13px;
+  letter-spacing: 1px;
+  display: block;
+  line-height: 2;
+}
+
+/*-------------------------*/
+header {
+  width: 100%;
+  min-width: 920px;
+  padding-top: 35px;
+  margin-bottom: 110px;
+}
+header p.headerLogo {
+  float: left;
+  display: inline;
+  margin-left: 40px;
+}
+header .headerR {
+  float: right;
+  margin: 5px 20px 0 0;
+  display: inline;
+  width: 595px;
+}
+header .gnav {
+  float: right;
+  margin-bottom: 17px;
+  width: 100%;
+  position: relative;
+}
+header .gnav li {
+  float: left;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 13px;
+  position: relative;
+  right: -4px;
+}
+header .gnav li:before {
+  content: '/';
+  padding: 0 4px;
+  position: relative;
+  top: 0px;
+}
+header .gnav li img {
+  vertical-align: bottom;
+}
+header .gnav li:first-child {
+  content: none;
+}
+header .gnav li:first-child:before {
+  content: none;
+}
+header .gnav li:last-child {
+  margin-right: 0;
+}
+header .snav {
+  float: right;
+}
+header .snav li {
+  font-size: 11px;
+  float: left;
+  letter-spacing: 1px;
+}
+header .snav li a {
+  color: #999999;
+}
+header .snav li:before {
+  content: '/';
+  padding: 0 5px;
+  color: #999999;
+  position: relative;
+  top: 0px;
+}
+header .snav li img {
+  vertical-align: bottom;
+}
+header .snav li:first-child {
+  content: none;
+}
+header .snav li:first-child:before {
+  content: none;
+}
+header .gnav li:last-child,
+header .snav li:last-child {
+  background: none;
+  padding: 0;
+  margin: 0;
+}
+header .gnav2, header .gnav3 {
+  position: relative;
+  z-index: 9999;
+}
+header .gnav2 .sssnav, header .gnav2 .sssnav {
+  position: absolute;
+  top: 12px;
+  left: -19px;
+  width: 170px;
+  display: none;
+}
+header .gnav2 .sssnav li, header .gnav3 .sssnav li {
+  display: block;
+  text-align: center;
+  padding: 0 !important;
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+  top: 15px;
+  background: white !important;
+  filter: alpha(opacity=90);
+  -moz-opacity: 0.90;
+  opacity: 0.90;
+  position: relative;
+  z-index: 9999;
+}
+header .gnav2 .sssnav li:before, header .gnav2 .sssnav li:before {
+  content: none;
+}
+header .gnav2 .sssnav li a, header .gnav3 .sssnav li a {
+  padding: 15px 0;
+  width: 100%;
+  display: block !important;
+  text-align: center;
+  border-bottom: 1px solid #dedede;
+  margin: 0 auto;
+  position: relative;
+  z-index: 9999;
+  background: #ffffff;
+}
+header .gnav2 .sssnav li img, header .gnav3 .sssnav li img {
+  vertical-align: bottom;
+}
+header .gnav2 .sssnav li:last-child a, header .gnav3 .sssnav li:last-child a {
+  border-bottom: none;
+}
+
+/*-------------------------*/
+body#index .pc header {
+  position: fixed;
+  top: 0px;
+  z-index: 9999;
+}
+body#index .pc header .gnav {
+  background: #ffffff;
+  padding: 4px 12px 5px;
+}
+body#index .pc header .snav {
+  background: #ffffff;
+  padding: 3px 12px 4px;
+}
+body#index .pc .mainContents {
+  margin-top: 170px;
+}
+
+body#headSlide .pc header {
+  position: fixed;
+  top: 0px;
+  z-index: 9999;
+}
+body#headSlide .pc header .gnav {
+  background: #ffffff;
+  padding: 4px 12px 5px;
+}
+body#headSlide .pc header .snav {
+  background: #ffffff;
+  padding: 3px 12px 4px;
+}
+
+body#headSlide .mobile header {
+  position: absolute;
+  top: 0px;
+  z-index: 9999;
+}
+body#headSlide .mobile header .gnav {
+  background: #ffffff;
+  padding: 4px 12px 5px;
+}
+body#headSlide .mobile header .snav {
+  background: #ffffff;
+  padding: 3px 12px 4px;
+}
+
+body#noImg .pc header {
+  position: fixed;
+  top: 0px;
+  z-index: 9999;
+}
+body#noImg .pc header .gnav {
+  background: #ffffff;
+  padding: 4px 12px 5px;
+}
+body#noImg .pc header .snav {
+  background: #ffffff;
+  padding: 3px 12px 4px;
+}
+body#noImg .pc .mainContents {
+  margin-top: 220px;
+}
+
+.headSlider {
+  width: 100%;
+  margin-bottom: 100px;
+  min-width: 900px;
+  max-height: 510px;
+  overflow: hidden;
+}
+.headSlider img {
+  width: 100%;
+  height: auto;
+  display: none;
+}
+.headSlider .firstChild {
+  display: block !important;
+}
+
+.mainContents {
+  margin: 0 auto;
+  position: relative;
+  width: 1000px;
+}
+.mainContents .pageTitle {
+  margin-bottom: 30px;
+}
+
+section.sec {
+  width: 845px;
+  margin: 0 auto 40px;
+}
+
+.pnav {
+  width: 100%;
+  margin-bottom: 80px;
+}
+.pnav ul {
+  width: 100%;
+}
+.pnav ul li {
+  float: left;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+.pnav ul li:before {
+  content: '/';
+  padding: 0 10px;
+}
+.pnav ul li a {
+  text-decoration: none;
+}
+.pnav ul li:first-child:before {
+  content: none;
+}
+
+.btnBeginner {
+  position: fixed;
+  bottom: 130px;
+  right: 2000px;
+  overflow: hidden;
+  z-index: 9999;
+}
+
+footer {
+  width: 100%;
+  margin: 200px auto 30px;
+  position: relative;
+}
+footer .btnPageTop {
+  position: fixed;
+  left: 40px;
+  bottom: 195px;
+  display: none;
+}
+footer .ftrL {
+  width: 400px;
+  float: left;
+  font-size: 12px;
+  font-style: normal;
+  margin-left: 40px;
+}
+footer .ftrL strong {
+  margin-bottom: 10px;
+  display: inline-block;
+}
+footer .ftrL address {
+  margin-bottom: 7px;
+  font-style: normal;
+}
+footer .ftrL span {
+  display: block;
+  line-height: 22px;
+  font-size: 11px;
+}
+footer .ftrR {
+  width: 435px;
+  float: right;
+  margin-right: 40px;
+  padding-top: 50px;
+}
+footer .ftrR p {
+  float: right;
+}
+footer .ftrR em {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 14px;
+  letter-spacing: 1px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+footer .ftrR img {
+  vertical-align: middle;
+}
+footer .ftrR ul {
+  float: right;
+  margin-top: 15px;
+}
+footer .ftrR ul li {
+  float: left;
+  margin-right: 20px;
+}
+footer .ftrR ul li:first-child {
+  margin-right: 5px;
+}
+footer .ftrR ul li:last-child {
+  margin-right: 0;
+}
+footer .ftrR ul .ggl {
+  width: 70px !important;
+}
+footer .ftrR ul .tw {
+  width: 67px !important;
+}
+footer small {
+  font-family: "Source Sans Pro", "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  font-style: italic;
+  text-transform: lowercase;
+  font-size: 13px;
+  color: #121212;
+  font-weight: 600;
+  letter-spacing: 1px;
+  display: block;
+  text-align: left;
+  padding-top: 20px;
+}

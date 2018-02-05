@@ -1,0 +1,170 @@
+/*-------------------------*/
+.mainContents {
+  width: 1000px;
+}
+.mainContents section {
+  width: 1000px;
+  margin-bottom: 100px;
+}
+.pageTitle {
+  margin-bottom: 75px;
+}
+
+.inner {
+	width: 870px;
+}
+
+.shopbot_h2 {
+  width: 1000px;
+  overflow: hidden;
+  padding: 7px 0;
+  margin-bottom: 30px;
+  border-bottom: 5px solid #228f6f;
+}
+
+.shopbot_h2 h2 {
+  display: inline-block;
+}
+
+#lead {
+	margin-bottom: 50px;
+}
+#lead .shopbot_h2 {
+  border-bottom: 5px solid #e9d05d;
+  margin-bottom: 10px;
+}
+#lead p {
+	font-size: 13px;
+	font-weight: bold;
+}
+#lead ul.lead_nav {
+	padding-top: 35px;
+	margin: 0 auto;
+	width: 278px;
+}
+
+#lead ul.lead_nav li {
+	padding-bottom: 28px;
+	position: relative;
+}
+
+#lead ul.lead_nav li:before{
+	content: url(../img/shopbot/icon_arrow.png);
+	position: absolute;
+	left: -55px;
+	top: 14px;
+}
+
+#workshop {
+	overflow: hidden;
+	margin-bottom: 80px;
+}
+#workshop .ws_priceList {
+	overflow: hidden;
+	float: left;
+	width: 334px;
+}
+#workshop .ws_priceList li {
+	margin-bottom: 20px;
+}
+#workshop .ws_priceList p {
+	font-size: 13px;
+	line-height: 25px;
+	font-weight: bold;
+}
+#workshop .ws_priceList p span {
+	font-size: 25px;
+}
+
+.contact {
+	margin-top: 15px;
+}
+.contact a {
+	color: #000;
+	text-decoration: none;
+}
+.contact p {
+	padding-left: 40px;
+	position: relative;
+}
+.contact p:before{
+	content: url(../img/shopbot/icon_arrow.png);
+	position: absolute;
+	left: 0px;
+	top: 1px;
+}
+
+#workshop .ws_img {
+	width: 571px;
+	float: right;
+}
+#workshop .ws_img li {
+	display: inline-block;
+}
+
+#data_service {
+	margin-bottom: 77px;
+}
+#data_service .data_support {
+	font-size: 13px;
+	font-weight: bold;
+	padding-bottom: 12px;
+}
+#data_service .data_price {
+	font-size: 25px;
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+#data_service .data_price span {
+	font-size: 11px;
+	padding-left: 11px;
+	font-weight: 100;
+}
+#data_service #data_img {
+	margin: 0 auto;
+}
+#data_service #data_table {
+	margin: 0 auto;
+	text-align: center;
+}
+#data_service .contact {
+	width: 334px;
+}
+#data_service .contact p {
+	font-size: 13px;
+	font-weight: bold;
+}
+
+#data_service .contact,
+#self_service .contact {
+	margin-top: 35px;
+	overflow: hidden;
+}
+/*
+#data_service a,
+#self_service a {
+	display: block;
+	color: #FF0000;
+	font-size: 20px;
+	margin-right: 53px;
+}
+*/
+
+#self_service .self_priceList li {
+	padding-bottom: 25px;
+}
+#self_service .self_priceList p {
+	font-size: 13px;
+	font-weight: bold;
+}
+#self_service .self_priceList li:nth-child(-n+2) p:first-child {
+	padding-bottom: 14px;
+}
+#self_service .self_priceList p.price {
+	font-size: 25px;
+}
+#self_service .contact {
+	width: 334px;
+	margin-top: 0;
+}
+

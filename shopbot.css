@@ -1,0 +1,60 @@
+/*-------------------------*/
+.mainContents {
+  width: 1000px;
+}
+.mainContents section {
+  width: 1000px;
+  margin-bottom: 100px;
+}
+.pageTitle {
+  margin-bottom: 75px;
+}
+
+.inner {
+	width: 870px;
+}
+
+.shopbot_h2 {
+  width: 1000px;
+  overflow: hidden;
+  padding: 7px 0;
+  margin-bottom: 10px;
+  border-bottom: 5px solid #228f6f;
+}
+
+.shopbot_h2 h2 {
+  display: inline-block;
+}
+
+#lead {
+	margin-bottom: 60px;
+}
+#lead .shopbot_h2 {
+  border-bottom: 5px solid #e9d05d;
+}
+#lead p {
+	font-size: 13px;
+}
+#lead ul.lead_nav {
+	padding-top: 35px;
+}
+
+#lead ul.lead_nav li {
+	padding-bottom: 28px;
+	position: relative;
+}
+
+#lead ul.lead_nav li:before{
+	content: url(../img/shopbot/icon_arrow.png);
+	position: absolute;
+	left: -10px;
+	top: 0;
+}
+
+/*
+.pageNavi {
+  margin-bottom: 70px;
+  text-align: center;
+  font-size: 17px;
+  color: #666;
+}*/

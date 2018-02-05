@@ -1,0 +1,89 @@
+@charset "UTF-8";
+.mainContents {
+  width: 960px;
+  margin: 0 auto 365px;
+  padding-top: 3px;
+}
+
+section#sec1 {
+  width: 100%;
+}
+section#sec1 .faqWrap {
+  margin-bottom: 70px;
+}
+section#sec1 .faqWrap:last-child {
+  margin-bottom: 0;
+}
+
+/* section#sec1 */
+.faqWrap {
+  width: 100%;
+}
+
+.faqTtl {
+  float: left;
+  padding-top: 3px;
+}
+.faqTtl h1 {
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+.faqTtl h2 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+/*-------------------------*/
+.faqCont {
+  float: right;
+  width: 715px;
+}
+.faqCont dl {
+  position: relative;
+  top: -20px;
+}
+.faqCont dl dt {
+  color: #545454;
+  border-bottom: 1px dotted #666666;
+  padding: 25px 10px 6px;
+  /* 			margin-bottom: 25px; */
+  display: block;
+  cursor: pointer;
+  font-size: 13px;
+  letter-spacing: 1px;
+  line-height: 1;
+}
+.faqCont dl dd {
+  width: 96%;
+  padding: 0 10px;
+  display: none;
+  font-size: 12px;
+  letter-spacing: 1px;
+  line-height: 2;
+  color: #999999;
+  margin: 25px 0 60px;
+  text-align: justify;
+}
+.faqCont dl dd .btnLink {
+  margin-top: 15px;
+}
+.faqCont dl dd .btnLink a {
+  background: #444444;
+  font-family: "Source Sans Pro", "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  font-size: 12px;
+  letter-spacing: 1px;
+  padding: 7px 16px;
+  color: #ffffff;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+}
+.faqCont dl dd .btnLink a:before {
+  content: '>';
+  padding-right: 5px;
+}

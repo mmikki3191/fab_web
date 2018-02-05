@@ -1,0 +1,196 @@
+.mainContents {
+  width: 900px;
+}
+
+.pageTitle {
+  margin-bottom: 90px !important;
+  padding-left: 20px;
+}
+
+section#sec1 {
+  width: 900px;
+}
+section#sec1 .contTit {
+  margin-bottom: 130px;
+}
+section#sec1 .contTit h1 {
+  padding: 0 0 30px;
+  background: url(../img/whats/border.gif) no-repeat 0 bottom;
+}
+section#sec1 .charter {
+  margin-bottom: 140px;
+}
+section#sec1 .charter h2 {
+  margin-bottom: 35px;
+  text-align: center;
+}
+section#sec1 .charter h2 + p {
+  margin-bottom: 40px;
+  line-height: 2.2;
+  font-size: 13px;
+  color: #666;
+  box-sizing: border-box;
+  padding: 0 58px;
+}
+.chCnt {
+  width: 100%;
+  margin-bottom: 65px;
+  margin-left: 1px;
+  /* charterL */
+  /* charterR */
+}
+.chCnt .charterL {
+  float: left;
+  width: 255px;
+}
+.chCnt .charterL h3 {
+  text-align: left;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  letter-spacing: 1px;
+  line-height: 31px;
+  margin-bottom: 10px;
+}
+.chCnt .charterL h4 {
+  font-size: 12px;
+  font-weight: normal;
+  letter-spacing: 1px;
+  line-height: 20px;
+}
+.chCnt .charterR {
+  float: right;
+  width: 590px;
+  margin-right: 15px;
+  /* enExp */
+  /* jpExp */
+}
+.chCnt .charterR .enExp {
+  width: 100%;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 1.7;
+  margin-bottom: 15px;
+}
+.chCnt .charterR .enExp dt {
+  margin-right: 4px;
+}
+.chCnt .charterR .enExp dd {
+  color: #BABABA;
+  width: 485px;
+}
+.chCnt .charterR .jpExp {
+  width: 100%;
+  font-size: 13px;
+  color: #666;
+  letter-spacing: 1px;
+  line-height: 2.1;
+  display: block;
+  text-align: justify;
+}
+.chCnt .charterR .jpExp dt {
+  margin-right: 3px;
+}
+.chCnt .charterR .jpExp dd {
+  width: 545px;
+}
+.chCnt .charterR dt, .chCnt .charterR dd {
+  float: left;
+  display: block;
+}
+.chCnt .resps {
+  width: 605px;
+  margin-right: 0;
+}
+.chCnt .resps .enExp dd {
+  width: 500px;
+}
+.chCnt .resps .jpExp dd {
+  width: 560px;
+}
+
+/* chCnt */
+div.chCnt:last-child {
+  margin-bottom: 0;
+}
+
+section#sec1 em {
+  display: block;
+  text-align: right;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 24px;
+  letter-spacing: 1px;
+  line-height: 31px;
+  margin-bottom: 5px;
+}
+section#sec1 span {
+  display: block;
+  text-align: right;
+  font-size: 12px;
+  letter-spacing: 1px;
+  line-height: 19px;
+}
+.halfSize {
+  zoom: 0.5;
+}
+.whatfablab {
+  margin-bottom: 132px;
+}
+.whatfablab h2 {
+  margin-bottom: 50px;
+  text-align: center;
+}
+.whatfablab p {
+  margin-bottom: 30px;
+  line-height: 2.2;
+  font-size: 13px;
+  color: #666;
+ 
+}
+.whatfablab p:last-of-type {
+  margin-bottom: 40px;
+}
+.whatfablab_link {
+    text-align: right;
+}
+.whatfablab_link a {
+  display: inline-block;
+  padding-left: 48px;
+  background: url(../img/whats/whatsfablab_icn_arrow.png) left center no-repeat;
+  background-size: 33px 12px;
+}
+.definition {
+  margin-bottom: 180px;
+}
+.definition h2 {
+  margin-bottom: 40px;
+  text-align: center;
+}
+.definition h2 + p {
+  margin-bottom: 50px;
+  line-height: 2.2;
+  text-align: center;
+  font-size: 13px;
+  color: #666;
+}
+.definition ul li {
+  margin-bottom: 45px;
+}
+.definition ul li p {
+  margin: 15px 0 17px;
+  line-height: 1.4;
+  font-size: 10px;
+  color: #666;
+}
+.definition ul li:nth-of-type {
+  margin-bottom: 0;
+}

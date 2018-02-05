@@ -1,0 +1,76 @@
+h1,h2,h3 {
+    line-height: 1.0;
+}
+h1,h2 {
+    text-align: center;
+}
+.mainContents {
+    width: 810px;
+}
+.mainContents .pageTitle {
+    margin-bottom: 15px;
+}
+p {
+    font-size: 13px;
+}
+h1 + p {
+    line-height: 1.7;
+    margin: 0 auto 75px;
+    padding: 0 125px;
+    box-sizing: border-box;
+    color: #666666;
+}
+.innerContent {
+    position: relative;
+}
+h2 {
+    margin-bottom: 24px;
+}
+.schedule h2 + ul {
+    margin-bottom: 75px;
+}
+.schedule h2 + ul li {
+    margin-top: 15px;
+}
+.schedule h2 + ul li:first-of-type {
+    margin-top: 0;
+}
+.schedule .innerContent > p, .innerContent > section, .innerContent > div {
+    float: left;
+}
+.schedule .innerContent > p {
+    width: 125px;
+}
+.schedule .innerContent > section {
+    width: 330px;
+}
+.schedule .innerContent > section > h3 {
+    margin: 0 0 6px;
+}
+.schedule .innerContent > section > p {
+    line-height: 2.2;
+    color: #666666;
+}
+.schedule .innerContent > div {
+    position: absolute;
+    right: 50px;
+}
+.schedule .innerContent > div.image01 {
+    top: 70px;
+}
+.schedule .innerContent > div.image02 {
+    top: 20px;
+}
+.schedule .innerContent > div.image03 {
+    top: 8px;
+}
+.schedule .innerContent > div.image04 {
+    top: 45px;
+}
+.kokoroe {
+    width:810px;
+    margin: 0 auto;
+}
+.kokoroe img {
+    width: 100%;
+}
