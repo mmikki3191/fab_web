@@ -355,15 +355,15 @@
 				<div class="l-wrap clearfix">
 					<div class="l-left">
 						<div class="facility__imageBox">
-							<img src="<?php echo get_template_directory_uri(); ?>/img/facilities/img_machine12.jpg" alt="カッティングマシン">
+							<img src="<?php echo get_template_directory_uri(); ?>/img/facilities/img_machine12.jpg" alt="shopbot">
 						</div>
 					</div>
 					<div class="l-right">
 						<div class="facility__textBox">
 							<p>大型のCNCミリングマシンでドリルで切削したり切断したりすることができ、手では難しかった正確な曲線加工ができます。</p>
 							<div class="facility__textBox__button">
-								<a href="https://fabble.cc/fablabdazaifu/scanncutxcm110" target="_blank" title="">
-									<img src="http://fablabdazaifu.com/wp/wp-content/uploads/2018/01/howtouse.jpg" alt="">
+								<a href="http://fablabdazaifu.com/howtouse/shopbot" target="_blank" title="">
+									<img src="img/facilities/facilities_icn_0２.jpg" alt="">
 								</a>
 							</div>
 						</div>
@@ -372,19 +372,19 @@
 				<table class="facility__table">
 					<tr>
 						<th>加工できる素材</th>
-						<td>カッティングシート / 布 / 紙</td>
+						<td>木材</td>
 					</tr>
 					<tr>
 						<th>データ形式</th>
-						<td>.svg</td>
+						<td>.ai /.dxf</td>
 					</tr>
 					<tr>
 						<th>最大加工サイズ</th>
-						<td>303×303mm</td>
+						<td>1212mm×2424mm（4尺×8尺）×30mm</td>
 					</tr>
 					<tr>
 						<th>料金</th>
-						<td>1000円 / 1h</td>
+						<td>3,000円~　※詳しくは上の"利用方法"をご確認ください</td>
 					</tr>
 				</table>
 			</article>
